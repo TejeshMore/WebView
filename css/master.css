@@ -1,0 +1,346 @@
+/* tags  css STARTS Here Alphabetically */
+body{
+  background-color: #3fc5f0;
+  }
+  h1{
+    color: black;
+    font-size: 4vh;
+    margin-top: 2vh;
+  }
+  p {
+  text-align: center;
+  font-size: 60px;
+}
+
+  /* tags  css ENDS Here Alphabetically */
+
+  /* Class Css STARTS Here Alphabetically */
+.box-inner{
+  text-align: center;
+  font-size: 40px;
+  outline: 1px solid black;
+  text-align: left;
+}
+.box{
+  text-align: center;
+  border-style: solid;
+  font-size: 40px;
+  text-align: left;
+}
+.dice{
+  margin: 30vh auto 2.5vh auto;
+  height: 16vh;
+  width: 28vw;
+  background: red;
+  border-radius: 20%;
+}
+.height-line-one{
+
+}
+.middle-line-grid{
+  height: 100%;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr   ;
+}
+.Player{
+  height :6vh;
+  width: 6vw;
+  background-color: green;
+  border-radius: 100%;
+  margin: auto auto;
+  visibility: visible;
+}
+.Prize-Section{
+  position: relative;
+  background-color: #f4efd3;
+  height: 20vh;
+  margin: 0 5%  0 5%;
+  text-align: center;
+  margin-bottom:0;
+}
+.row{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-15px;margin-left:-15px}
+{position:relative;width:100%;padding-right:15px;padding-left:15px}
+
+.top-line-grid{
+  height: 100%;
+  display: grid;
+  grid-template-columns:repeat(5,1fr)  ;
+}
+.top-line-grid-vertical{
+  width: 100%;
+  display: grid;
+  grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr  ;
+  outline: 1px solid;
+}
+.wrapper{
+  width: 90%;
+  height: 70vh;
+  margin: 4vh auto;
+  display: grid;
+  grid-template-columns:2.5fr 9fr 2.5fr;
+  grid-auto-rows:  10vh 50vh 10vh;
+  background-color:	#f4efd3;
+}
+/* Class Css ENDS Here Alphabetically */
+
+/* ID Css STARTS Here Alphabetically */
+
+#centerDiv{
+  background-color: #eef5b2;
+}
+#r1c1{
+  width:7vw;
+  height: 4vh;
+  background-color: black;
+  margin-left:3vw;
+  margin-top: 1vh;
+  border-radius: 100%;
+  display: block;
+  visibility: visible;
+}
+#r2c1{
+  width:7vw;
+  height: 4vh;
+  background-color: black;
+  margin-left: 3vw;
+  margin-top: 1vh;
+  border-radius: 100%;
+  display: block;
+  visibility: visible ;
+}
+#r3c1{
+  width:7vw;
+  height: 4vh;
+  background-color: black;
+  margin-left: 3vw;
+  margin-top: 1vh;
+  border-radius: 100%;
+  display: block;
+  visibility: visible;
+}
+#r1c2{
+  width:7vw;
+  height: 4vh;
+  background-color: black;
+  margin-left: 2vw;
+  margin-top: 1vh;
+  border-radius: 100%;
+  display: block;
+}
+#r2c2{
+  width:7vw;
+  height: 4vh;
+  background-color: black;
+  margin-left: 2vw;
+  margin-top: 1vh;
+  border-radius: 100%;
+  display: block;
+}
+#r3c2{
+  width:7vw;
+  height: 4vh;
+  background-color: black;
+  margin-left: 2vw;
+  margin-top: 1vh;
+  border-radius: 100%;
+  display: block;
+}
+#r1c3{
+  width:7vw;
+  height: 4vh;
+  background-color: black;
+  margin-left: 2vw;
+  margin-top: 1vh;
+  border-radius: 100%;
+  display: block;
+}
+#r2c3{
+  width:7vw;
+  height: 4vh;
+  background-color: black;
+  margin-left: 2vw;
+  margin-top: 1vh;
+  border-radius: 100%;
+  display: block;
+}
+#r3c3{
+  width:7vw;
+  height: 4vh;
+  background-color: black;
+  margin-left: 2vw;
+  margin-top: 1vh;
+  border-radius: 100%;
+  display: block;
+}
+/*
+#Player1{
+  height :6vh;
+  width: 6vw;
+  background-color: green;
+  border-radius: 100%;
+  margin: auto auto;
+  visibility: visible;
+}
+#Player2{
+  height :6vh;
+  width: 6vw;
+  background-color: green;
+  border-radius: 100%;
+  margin: auto auto;
+  visibility: hidden;
+}#Player3{
+  height :6vh;
+  width: 6vw;
+  background-color: green;
+  border-radius: 100%;
+  margin: auto auto;
+  visibility: hidden;
+}#Player4{
+  height :6vh;
+  width: 6vw;
+  background-color: green;
+  border-radius: 100%;
+  margin: auto auto;
+  visibility: hidden;
+}#Player5{
+  height :6vh;
+  width: 6vw;
+  background-color: green;
+  border-radius: 100%;
+  margin: auto auto;
+  visibility: hidden;
+}#Player6{
+  height :6vh;
+  width: 6vw;
+  background-color: green;
+  border-radius: 100%;
+  margin: auto auto;
+  visibility: hidden;
+}#Player7{
+  height :6vh;
+  width: 6vw;
+  background-color: green;
+  border-radius: 100%;
+  margin: auto auto;
+  visibility: hidden;
+}#Player8{
+  height :6vh;
+  width: 6vw;
+  background-color: green;
+  border-radius: 100%;
+  margin: auto auto;
+  visibility: hidden;
+}#Player9{
+  height :6vh;
+  width: 6vw;
+  background-color: green;
+  border-radius: 100%;
+  margin: auto auto;
+  visibility: hidden;
+}#Player10{
+  height :6vh;
+  width: 6vw;
+  background-color: green;
+  border-radius: 100%;
+  margin: auto auto;
+  visibility: hidden;
+}#Player11{
+  height :6vh;
+  width: 6vw;
+  background-color: green;
+  border-radius: 100%;
+  margin: auto auto;
+  visibility: hidden;
+}#Player12{
+  height :6vh;
+  width: 6vw;
+  background-color: green;
+  border-radius: 100%;
+  margin: auto auto;
+  visibility: hidden;
+}#Player13{
+  height :6vh;
+  width: 6vw;
+  background-color: green;
+  border-radius: 100%;
+  margin: auto auto;
+  visibility: hidden;
+}#Player14{
+  height :6vh;
+  width: 6vw;
+  background-color: green;
+  border-radius: 100%;
+  margin: auto auto;
+  visibility: hidden;
+}#Player15{
+  height :6vh;
+  width: 6vw;
+  background-color: green;
+  border-radius: 100%;
+  margin: auto auto;
+  visibility: hidden;
+}#Player16{
+  height :6vh;
+  width: 6vw;
+  background-color: green;
+  border-radius: 100%;
+  margin: auto auto;
+  visibility: hidden;
+}#Player17{
+  height :6vh;
+  width: 6vw;
+  background-color: green;
+  border-radius: 100%;
+  margin: auto auto;
+  visibility: hidden;
+}#Player18{
+  height :6vh;
+  width: 6vw;
+  background-color: green;
+  border-radius: 100%;
+  margin: auto auto;
+  visibility: hidden;
+}#Player19{
+  height :6vh;
+  width: 6vw;
+  background-color: green;
+  border-radius: 100%;
+  margin: auto auto;
+  visibility: hidden;
+}#Player20{
+  height :6vh;
+  width: 6vw;
+  background-color: green;
+  border-radius: 100%;
+  margin: auto auto;
+  visibility: hidden;
+}#Player21{
+  height :6vh;
+  width: 6vw;
+  background-color: green;
+  border-radius: 100%;
+  margin: auto auto;
+  visibility: hidden;
+}#Player22{
+  height :6vh;
+  width: 6vw;
+  background-color: green;
+  border-radius: 100%;
+  margin: auto auto;
+  visibility: hidden;
+}#Player23{
+  height :6vh;
+  width: 6vw;
+  background-color: green;
+  border-radius: 100%;
+      margin: auto auto;
+  visibility: hidden;
+}#Player24{
+  height :6vh;
+  width: 6vw;
+  background-color: green;
+  border-radius: 100%;
+  margin: auto auto;
+  visibility: hidden;
+} */
+/* ID Css ENDS Here Alphabetically */
